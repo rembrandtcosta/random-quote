@@ -18,6 +18,7 @@ const file = fs.readFile('quotes.txt', 'utf8', (_, data) => {
       quotes[at] = {"quote":"", "author":""};
     } else {
       quotes[at].quote += line.trim().replace('\"', "'").replace('\"', "'") + ' ';
+
     }
   });
 
