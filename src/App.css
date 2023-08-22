@@ -1,4 +1,11 @@
-#center-box {margin: 0 auto !important; max-width: 50%;}
+body {
+  background-color: #F5F5F5 !important;
+}
+
+#center-box {
+  margin: 0 auto !important;
+  max-width: 50%;
+}
 
 .App {
   text-align: center;
